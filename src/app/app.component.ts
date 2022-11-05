@@ -7,4 +7,9 @@ import { Component } from '@angular/core';
 })
 export class AppComponent {
   title = 'challenge-customs-directives';
+
+  movieList: string[] = ["star Wars", "Harry Potter", "Superman"];
+
+  showMovies: boolean = false;
+
 }
